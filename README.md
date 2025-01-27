@@ -181,16 +181,6 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 
 <div>&nbsp;</div>
 
-<!-- Contact -->
-## :handshake: Contact
-
-▶ Support me on Patreon [patreon.com/cifertech](https://www.patreon.com/cifertech)
-
-CiferTech - [@twitter](https://twitter.com/techcifer) - CiferTech@gmali.com
-
-Project Link: [https://github.com/cifertech/nRFBOX](https://github.com/cifertech/nrfbox)
-
-<div>&nbsp;</div>
 
 <!-- Acknowledgments -->
 ## :gem: Acknowledgements 
