@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>nRFBOX: Your All-in-One Gadget for BLE and 2.4GHz Networks</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <h1>nRFBOX: Your All-in-One Gadget for BLE and 2.4GHz Networks</h1>
+    
+    <div class="headerImg">
+      <img src="images/1.png" alt="">
+    </div>
+    
+    <!-- 🔧 Introduction -->
+    <div class="introduction sections">
+      <h1>🌟 About the Project</h1>
+      <p>The nRFBOX Project is an open-source initiative aimed at providing a comprehensive set of tools to explore the 2.4GHz spectrum, including Bluetooth and other wireless protocols. Built around the powerful ESP32 Wroom32U microcontroller, the project incorporates multiple NRF24 modules, an OLED display, and several other
+      </br>
+ components, enabling users to perform spectrum analysis, jamming, spoofing, and more.
+</p>
+<img src="images/2.png" alt="">
+ <br/><br/>
+<p>Whether you are a beginner looking to learn about wireless communication or a professional seeking a customizable toolkit for advanced tasks, this project offers a perfect blend of features, flexibility, and functionality.</p>
+    </div>
+    
+    <!-- 🛠️ Features -->
+    <div class="features sections">
+      <h1>🎯 Features</h1>
+      <p>The nRFBOX comes packed with a variety of features, making it a powerful tool for wireless experimentation and security testing: <br/> <br/>
+      <h3>Software Features</h3<br/>
+      <p><b>• Dynamic Channel Scanning:</b>  Continuously monitors the 2.4GHz frequency band to identify active devices and channels.</p>
+      <p><b>• Signal Analysis:</b> Provides detailed insights into detected signals, including signal strength and data rate, helping in identifying potential interference sources or security threats.</p>
+      <p><b>• Multi-Mode Jamming:</b> Supports multiple jamming modes, such as constant, random, and selective jamming, allowing for a range of security tests.</p>
+      <p><b>• BLE Device Emulation:</b> Simulates BLE devices to test the security responses of real devices in a controlled environment.</p>
+      <p><b>• User-Friendly Interface:</b> Features a menu-driven UI displayed on the OLED screen for easy navigation between different modes and settings.</p>
+      <br/>
+      <h3>Hardware Features</h3>  <br/>
+      <p><b>• ESP32 Wroom32U: </b>The main controller provides dual-core processing, integrated Wi-Fi, and Bluetooth capabilities.</p>
+      <p><b>• NRF24 GTmini Modules:</b> Essential for 2.4GHz communication and jamming; three modules are recommended for advanced BLE jamming functionalities.</p>
+      <p><b>• 0.96″ OLED Display:</b> A small yet high-contrast display for visual feedback and interface navigation.</p>
+      <p><b>• LF33 Voltage Regulator:</b> Ensures a stable 3.3V output to power the microcontroller and other sensitive components.</p>
+      <p><b>• CP2102 USB-to-Serial Converter:</b> Facilitates easy programming and debugging through USB.</p>
+      <p><b>• TP4056 Li-Ion Charging Module:</b> Manages charging of the onboard Li-Po battery, including protection against overcharging.</p>
+      <p><b>• WS2812 Neopixel:</b> A single RGB LED acting as a status indicator for various modes and states.</p>
+      <p><b>• Antenna Connector:</b> Enhances signal strength and range for effective communication and jamming.</p>
+      <p><b>• Micro Switch:</b> Provides tactile input for mode selection and user commands.</p>
+      </p>
+    </div>
+    
+    
+    
+    
+    <!-- 🎯 Core Functions -->
+    <div class="funcation sections">
+      <h1>🎯 Core Functions</h1>
+      <p>
+        <h1><b>1. Scanner</b></h1>
+        <img src="images/3.png"> <br/>
+        <p>The scanner continuously sweeps across the 2.4GHz band, identifying active channels and devices. This function is crucial for identifying potential sources of interference or threats in a given area.</p><br/><br/><br/><br/>
+        
+        
+        <h1>2. Analyzer</h1>
+        <img src="images/4.png"> <br/>
+        <p>The analyzer provides a deeper dive into the detected signals, offering data on signal strength, modulation, and data rates. It helps users understand the wireless environment more thoroughly.</p><br/><br/><br/><br/>
+        
+        
+        <h1><b>3. Jammer</b></h1>
+        <img src="images/5.png"> <br />
+        <p>The jammer function disrupts communications on specified channels. It offers various modes, including constant, random, and selective jamming, making it useful for security testing and research.</p><br /><br /><br /><br />
+
+
+        <h1><b>4. BLE Jammer</b></h1>
+        <img src="images/6.png"> <br />
+        <p>Specialized in targeting BLE devices, this function disrupts Bluetooth communications within a certain range. It is most effective when using three NRF24 modules simultaneously.</p><br /><br /><br /><br />
+        
+        
+        <h1><b>5. BLE Spoofer</b></h1>
+        <img src="images/7.png"> <br />
+        <p>Simulates BLE devices to test security responses or to create controlled environments for BLE testing.</p><br /><br /><br /><br />
+
+
+        <h1>6. Sour Apple</h1>
+        <img src="images/8.png"> <br />
+        <p>A specialized protocol attack designed to test vulnerabilities in wireless network setups, particularly targeting specific communication protocols.</p><br /><br /><br /><br />
+        
+        
+      </p>
+      <p></p>
+    </div>
+    
+    
+    <!-- 🧰 Getting Started -->
+    <div class="started sections">
+      <h1>🧰 Getting Started</h1>
+      <h3>Step 1: Gather Your Components</h3> <br/>
+      <p>To build the Wireless Toolkit, you will need the following components: <br/>
+      <p><b>
+        ESP32 Wroom32U <br/>
+        NRF24 GTmini Modules (x3 for advanced BLE jamming) <br/>
+        0.96″ OLED Display <br/>
+        LF33 Voltage Regulator <br/>
+        CP2102 USB-to-Serial Converter <br/>
+        TP4056 Li-Ion Charging Module <br/>
+        WS2812 Neopixel <br/>
+        Micro Switches <br/>
+        Antenna Connector <br/>
+      </b></p>
+      </p>
+      <br/><br/>
+      <h3>Step 2: Assembly Options</h3> <br/>
+      <p>You have two options for assembly: <br/> <br/>
+      <p><b>Breadboard Prototype: </b>For initial testing and prototyping, you can assemble the components on a breadboard. This method is cost-effective and allows for easy modifications.</p>
+      <p><b>Custom PCB: </b>For a more durable and compact setup, use the provided PCB design files to manufacture a custom PCB. Follow the assembly guide to solder all components correctly.</p>
+      </p>
+      
+      <br/><br/>
+      <h3>Step 3: Program the ESP32</h3> <br/>
+      <p>Once your hardware is ready, download the code from the GitHub repository and upload it to the ESP32 using the Arduino IDE. Ensure all necessary libraries (e.g., U8g2, RF24) are installed.</p>
+    </div>
+    
+    
+    <!--  🔌 Schematicv -->
+    <div class="schematic sections">
+      <h1>🔌 Schematic</h1>
+      <p>The schematic for the Wireless Toolkit project is available in the GitHub repository. It provides detailed instructions on connecting each component, ensuring all connections are accurate and secure. The schematic also includes power management details to avoid overloading any component.</p>
+      <div class="required">
+        <p>• ESP32 / NRF24 Connection</p>
+        <table border="1" style="border-collapse: collapse;">
+          <tr>
+            <th>NRF24 Pin</th>
+            <th>ESP32 Pin (GPIO)</th>
+          </tr>
+          <tr>
+            <td>VCC</td>
+            <td>3.3V</td>
+          </tr>
+          <tr>
+            <td>GND</td>
+            <td>GND</td>
+          </tr>
+          <tr>
+            <td>CE</td>
+            <td>GPIO 5</td>
+          </tr>
+          <tr>
+            <td>CSN</td>
+            <td>GPIO 17</td>
+          </tr>
+          <tr>
+            <td>SCK</td>
+            <td>GPIO 18</td>
+          </tr>
+          <tr>
+            <td>MOSI</td>
+            <td>GPIO 23</td>
+          </tr>
+          <tr>
+            <td>MISO</td>
+            <td>GPIO 19</td>
+          </tr>
+          <tr>
+            <td>IRQ</td>
+            <td>Not connected</td>
+          </tr>
+        </table>
+      </div>
+      <div class="required">
+        <p>• ESP32 / OLED Connection</p>
+        <table border="1" style="border-collapse: collapse;">
+          <tr>
+            <th>OLED Pin</th>
+            <th>ESP32 Pin (GPIO)</th>
+          </tr>
+          <tr>
+            <td>VCC</td>
+            <td>3.3V</td>
+          </tr>
+          <tr>
+            <td>GND</td>
+            <td>GND</td>
+          </tr>
+          <tr>
+            <td>SCL</td>
+            <td>GPIO 22</td>
+          </tr>
+          <tr>
+            <td>SDL</td>
+            <td>GPIO 21</td>
+          </tr>
+        </table>
+      </div>
+      <div class="required">
+        <p>• ESP32 / Pushbutton Connection</p>
+        <table border="1" style="border-collapse: collapse;">
+          <tr>
+            <th>Pushbutton Pin</th>
+            <th>ESP32 Pin (GPIO)</th>
+          </tr>
+          <tr>
+            <td>Button 1</td>
+            <td>GPIO 27</td>
+          </tr>
+          <tr>
+            <td>Button 2</td>
+            <td>GPIO 26</td>
+          </tr>
+          <tr>
+            <td>Button 3</td>
+            <td>GPIO 25</td>
+          </tr>
+          <tr>
+            <td>Button 4</td>
+            <td>GPIO 33</td>
+          </tr>
+          <tr>
+            <td>Button 5</td>
+            <td>GPIO 32</td>
+          </tr>
+        </table>
+      </div>
+      <img src="images/9.png">
+    </div>
+    
+    <!-- 👀 Use Cases -->
+    <div class="cases sections">
+      <h1>👀 Use Cases</h1>
+      <p>
+        <p><b>Wireless Security Testing: </b>Ideal for professionals testing the security of wireless networks and devices.</p>
+        <p><b>Educational Tool: </b>A great project for learning about wireless communication protocols, signal analysis, and jamming techniques.</p>
+        <p><b>Research and Development: </b>Useful for developing and testing new wireless communication methods or devices.</p>
+        <p><b>Hobby Projects: </b>Perfect for hobbyists looking to explore the world of wireless technology and DIY electronics.</p>
+      </p>
+    </div>
+    
+    
+    <!-- Code & PCB -->
+    <div class="pcb sections">
+      <h1>Code & PCB</h1>
+      <p>If you’re interested in building this project, the code and schematic are available on GitHub. Simply visit the GitHub repository to download the necessary files.  Feel free to test the code and share your feedback or improvements.</br>
+GitHub repository: <a href="https://github.com/cifertech/Nrf-Box">NRF-BOX</a></p>
+<img src="images/10.png" alt="">
+    </div>
+    
+    
+    
+    
+    
+    
+    <!-- 🌟 Conclusion -->
+    <div class="conclusion sections">
+      <h1>🌟 Conclusion</h1>
+      <p>Whether you choose to build it on a breadboard or manufacture a custom PCB, the nRFBOX provides a comprehensive platform for exploring the 2.4GHz spectrum and beyond. All code, schematics, and PCB are available on our GitHub repository and website, making it easy for you to start building and customizing your own toolkit today.</p>
+    </div>
+    
+  </main>
+</body>
+</html>
