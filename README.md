@@ -7,27 +7,23 @@
 
 
 <!-- Badges -->
-<a href="https://github.com/cifertech/nrfbox" title="Go to GitHub repo"><img src="https://img.shields.io/static/v1?label=cifertech&message=nrfbox&color=purple&logo=github" alt="cifertech - nrfbox"></a>
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/cifertech/nrfbox/total)
-<a href="https://github.com/cifertech/nrfbox"><img src="https://img.shields.io/github/stars/cifertech/nrfbox?style=social" alt="stars - nrfbox"></a>
-<a href="https://github.com/cifertech/nrfbox"><img src="https://img.shields.io/github/forks/cifertech/nrfbox?style=social" alt="forks - nrfbox"></a>
 
    
 <h4>
-    <a href="https://twitter.com/techcifer">TWITTER</a>
+    <a href="_blank">TWITTER</a>
   <span> · </span>
-    <a href="https://www.instagram.com/cifertech/">INSTAGRAM</a>
+    <a href="_blank">INSTAGRAM</a>
   <span> · </span>
-    <a href="https://www.youtube.com/@techcifer">YOUTUBE</a>
+    <a href="_blank">YOUTUBE</a>
   <span> · </span>
-    <a href="https://cifertech.net/">WEBSITE</a>
+    <a href="https://yourarfat.github.io/">WEBSITE</a>
   </h4>
 </div>
 <br/>
 
 ## 📖 Explore the Full Documentation
 
-Ready to dive deeper into nRFBOX's details? Discover the full story, in-depth tutorials, and all the exciting features in our comprehensive [documentation](https://cifertech.net/nrfbox-your-all-in-one-gadget-for-ble-and-2-4ghz-networks/). Click the link and explore further!
+Ready to dive deeper into nRFBOX's details? Discover the full story, in-depth tutorials, and all the exciting features in our comprehensive [documentation](). Click the link and explore further!
   
 <div>&nbsp;</div>
 
